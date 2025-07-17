@@ -1,10 +1,13 @@
 # PythonTest
 
-This repository contains a simple Python program that prints a greeting.
+This repository contains a simple Python program that prints a greeting and
+zeigt den aktuellen Schlusskurs einer Aktie über die Yahoo-Finance-API an.
 
 ## Usage
-Run the program using:
+Installiere die benötigte Bibliothek und führe das Programm anschließend mit
+einem Ticker-Symbol aus:
 
 ```bash
-python hello_program.py
+pip install yfinance
+python hello_program.py AAPL
 ```
